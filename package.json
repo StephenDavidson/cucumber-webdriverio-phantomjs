@@ -1,0 +1,22 @@
+{
+  "name": "cucumber-webdriverio",
+  "version": "1.0.0",
+  "description": "Example of cucumberjs and webdriverio",
+  "scripts": {
+    "lint": "node node_modules/eslint/bin/eslint.js .",
+    "test": "node node_modules/cucumber/bin/cucumber.js"
+  },
+  "author": "Stephen Davidson",
+  "license": "MIT",
+  "dependencies": {
+    "cucumber": "^2.0.0-rc.1",
+    "phantomjs-prebuilt": "^2.1.13",
+    "unexpected": "^10.20.0",
+    "webdriverio": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
