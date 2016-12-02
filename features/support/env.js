@@ -1,3 +1,4 @@
+const expect = require('unexpected');
 const phantomjs = require('phantomjs-prebuilt');
 const WebDriverIO = require('webdriverio');
 
@@ -5,6 +6,7 @@ const wdOpts = { desiredCapabilities: { browserName: 'phantomjs' } };
 const browser = WebDriverIO.remote({ wdOpts });
 
 global.browser = browser;
+global.expect = expect;
 
 module.exports = function hooks() {
   this.registerHandler('BeforeFeatures', (event, done) => {

@@ -1,5 +1,3 @@
-const expect = require('unexpected');
-
 module.exports = function searchSteps() {
   this.Given(/^I am on the search page$/, () => browser.url('https://duckduckgo.com'));
 

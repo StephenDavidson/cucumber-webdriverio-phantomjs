@@ -1,8 +1,8 @@
 {
   "extends": "airbnb-base",
   "globals": {
-    "allure": true,
     "browser": true,
+    "expect": true,
     "request": true
   }
 }
